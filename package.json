@@ -1,0 +1,16 @@
+{
+  "name": "carters-agent",
+  "version": "1.0.0",
+  "description": "AI agent that receives building supply requests via SMS/WhatsApp, parses them, forwards to Carters, and texts back the ETA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "twilio": "^5.3.0"
+  }
+}
